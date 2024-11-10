@@ -58,7 +58,7 @@ export default function App() {
             );
           })()}
         {choice === null && (
-          <div className="fade">
+          <div className="fade" style={{ textAlign: "center" }}>
             <h1>Please select an example</h1>
           </div>
         )}
